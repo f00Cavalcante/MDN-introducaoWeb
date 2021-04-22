@@ -1,0 +1,39 @@
+html
+{
+   background-color: rgba(0, 0, 0, 0.900);
+   color: white;
+   
+   /* texto */
+   font-size: 10px;
+   font-family: 'Prompt', sans-serif;
+}
+
+   body
+   {
+      background-color: rgba(0, 0, 0, 0.700);
+      border: 5px solid white;
+      height: 98.5vh;
+      margin: 0 auto;
+      padding: 0 25px;
+      text-align: justify;
+      width: 1000px;
+   }
+      h1
+      {
+         font-size: 35px;
+         margin: 0;
+         padding: 15px 30px;
+         text-align: center;
+         text-shadow: 1.5px 1.5px 0.5px pink;
+      }
+      img
+      {
+         display: block;
+         margin: 0 auto;
+      }
+      p, ol
+      {
+         font-size: 15px;
+         letter-spacing: 1px; /* espaço entre as letas */
+         line-height: 1.5; /* espaço entre as linhas */
+      }
