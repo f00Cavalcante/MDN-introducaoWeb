@@ -9,13 +9,13 @@ let
    {
       let lMeuScr = lMinhaImagem.getAttribute('src');
 
-      if(lMeuScr === './img/Simpsons_img01.png')
+      if(lMeuScr === './Simpsons_img01.png')
       {
-         lMinhaImagem.setAttribute('src', './img/Simpsons_img02.png')
+         lMinhaImagem.setAttribute('src', './Simpsons_img02.png')
       }
          else
          {
-            lMinhaImagem.setAttribute('src', './img/Simpsons_img01.png')
+            lMinhaImagem.setAttribute('src', './Simpsons_img01.png')
          }
    }
 
